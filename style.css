@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color{
+    color: rebeccapurple;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+    background-repeat: no-repeat;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-size: 100%;
+}
+.Biography{
+    background-image: url("images/biography-bg.png");
+    background-size: 100%;
+}
+.work{
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100%;
+}
+section{
+    height:700px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: 700;
+}
+.mid{
+    text-align: center;
+}
+
+.img-sec{
+    padding: 5% 7.5%;
+}
+
+.work-img{
+    width: 30%;
+    float: left;
+}
+#mid-img{
+    padding: 0 5%;
+}
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 40%;
+    background-color:white;
+}
+.baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 40%;
+}
+footer{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
